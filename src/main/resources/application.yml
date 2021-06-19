@@ -3,7 +3,7 @@ spring:
     stream:
       bindings:
         # the naming of bindings according to functional style api. process - the name of the method, in/out -
-        # whether the we're reading or writing. 0 - ordinal number of the binding for the channel
+        # whether the we're reading or writing. 0 - ordinal number of the channel in the method.
         process-in-0:
           destination: input-topic
         process-out-0:
